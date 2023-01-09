@@ -1,0 +1,106 @@
+
+$grid-breakpoints: (
+  xxs: 230px,
+  xs: 400px,
+  sm: 576px,
+  md: 680px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+.postImg {
+   height : 300px;
+   object-fit:fill;
+}
+
+.postImgEmpty {
+    background-color: gray;
+}
+
+.postTitle{
+    font-weight: 600;
+}
+
+.postPreview {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.postAddr {
+    font-size: small;
+}
+
+.PostsWrapper {
+    word-wrap: break-word;
+    width: 600px;
+    font-family: sans-serif;
+    
+    //background-color: aliceblue;
+    //opacity: 0.7;
+    //border-radius: 15px !important;
+}
+
+.OuterWrapper {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.postItem:hover {
+    opacity: 0.7;
+}
+
+.postItem {
+    width : 100%;
+    overflow: hidden;
+}
+
+.postExpand {
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width : 600px;
+    z-index: 4;
+    top : 30px;
+}
+
+.postCard {
+    text-align: left;
+    height : auto !important;
+    width : 98%;
+    display: inline-flex;
+    vertical-align:top;
+    
+}
+
+.leftCol, .rightCol {
+    width: 50%;
+    display : inline-block;
+    vertical-align : top;
+    text-align: center;
+}
+
+@include media-breakpoint-up(md) {
+    .PostsWrapper {
+        width: 600px;
+    } 
+}
+
+
+@include media-breakpoint-down(md) {
+    .PostsWrapper {
+        width: 98% ;
+    }
+    .postImg {
+        height: calc(75vw)
+    }
+    
+}
+
+@include media-breakpoint-down(xxs) {
+    .PostsWrapper {
+        width: 230px;
+    }
+}
+

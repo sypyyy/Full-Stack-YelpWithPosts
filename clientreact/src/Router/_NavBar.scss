@@ -1,0 +1,92 @@
+
+
+
+$grid-breakpoints: (
+  xxs: 319px,
+  xs: 400px,
+  sm: 576px,
+  md: 680px,
+  lg: 800px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+#NavBar {
+  position:fixed;
+  z-index: 10;
+  top : 0;
+  width: 100%;
+}
+
+
+.focusedNav{ 
+  border : 2px solid black;
+  white-space: nowrap;
+  border-radius: 15px !important;
+}
+.unfocusedNav, .unfocusedNav:hover{ 
+  text-decoration : None;
+  color : black;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  padding-left : 8px;
+  padding-right : 8px;
+  margin-left : 5px;
+  margin-right : 5px;
+  
+  border-radius : 15px !important;
+  white-space: nowrap;
+
+}
+
+
+.navBarComponents{
+  top : 20px;
+  right: 20px;
+  margin-right: 0;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+}
+.navBar{
+  height:50px;
+  margin-bottom: 55px;
+}
+@include media-breakpoint-down(md) {
+  .navBarComponents {
+      font-size: medium;
+  }
+}
+@include media-breakpoint-down(xxs) {
+  .navBarComponents {
+    
+      font-size: medium;
+  }
+ 
+}
+
+
+
+.slide-in-slide-out {
+  animation-name : slideInAndOut;
+  animation-duration : 5s;
+  word-break: keep-all;
+  white-space: nowrap;
+  margin-left:-100%;
+  font-size: larger;
+  position: absolute;
+}
+@keyframes slideInAndOut {
+  0%   {margin-left:-100%;}
+  20%   { margin-left:auto; margin-right: auto;}
+  80%   { margin-left:auto; margin-right: auto;}
+  100% { margin-left:100%;}
+}
+
+.greeting {
+  text-align: right;
+}
+
+
+
+

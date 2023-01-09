@@ -1,0 +1,96 @@
+
+
+$grid-breakpoints: (
+  xxs: 320px,
+  xs: 400px,
+  sm: 576px,
+  md: 680px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1130px
+);
+
+
+.resultTable{
+  width: 97%;
+  border: 1px hidden white;
+  margin-bottom: 40px !important;
+  border-radius: 10px;
+  overflow: hidden !important;
+  & tbody td {
+    font-weight: 600;
+    font-size: small;
+    word-spacing: normal;
+    overflow: hidden !important;
+    
+  }
+  
+  & .nameR {
+    height : 54px !important;
+  }
+}
+
+
+.fix-table-height{
+  height : 730px;
+  overflow-x: scroll !important;
+  overflow-y: scroll !important;
+}
+
+tbody img {
+  width : 50px;
+  height : 50px;
+  object-fit: fill;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.noRecords {
+  font-size: large;
+  font-weight: 700;
+  color : red;
+  padding: 0px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.resultRow:hover{
+  cursor: pointer;
+}
+
+
+.resultTable {
+  background-color: white;
+  margin-bottom: 0 !important;
+}
+
+@include media-breakpoint-down(xxl) {
+  .resultTable {
+    width: 95% ;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .resultHead{
+    font-size: smaller !important;
+  }
+  .resultItem{
+    font-size: small !important;
+  }
+  tbody img {
+    width : 60px;
+    height : 60px;
+    border-radius: 5px;
+  }
+}
+
+
+@include media-breakpoint-down(xxs) {
+  .resultHead{
+    word-break:break-all !important;
+
+  }
+  
+}
+

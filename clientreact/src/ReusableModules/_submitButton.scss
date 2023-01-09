@@ -1,0 +1,73 @@
+$grid-breakpoints: (
+  xxs: 230px,
+  xs: 400px,
+  sm: 576px,
+  md: 640px,
+  lg: 800px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+
+
+
+.btn {
+  background-position: center;
+  transition: background 0.8s;
+}
+.submitButton:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.submitButton:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.submitButton {
+  width : 82px;
+}
+
+.spinnerWrapper {
+  animation: slowlyAppear 1.3s ;
+}
+
+.submitButtonTxt {
+  animation: slowlyAppear 0.8s ;
+}
+
+
+@keyframes slowlyAppear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Button style */
+
+
+
+/*
+@keyframes my {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: none;
+  }
+}
+*/

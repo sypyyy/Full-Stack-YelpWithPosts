@@ -1,0 +1,17 @@
+
+$grid-breakpoints: (
+  xxs: 320px,
+  xs: 400px,
+  sm: 576px,
+  md: 680px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+.reviewName{
+    font-weight: 2000!important;
+    font-family: sans-serif;
+}
+.reviewRow{
+    font-family: Noto Sans Ethiopic, sans-serif;
+}

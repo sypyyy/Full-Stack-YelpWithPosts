@@ -1,0 +1,48 @@
+
+
+.deleteIcon:hover{
+    cursor: pointer;
+  }
+  
+  .BookingTable{
+    width:800px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0px solid white;
+    background-color: white;
+  }
+  
+  
+  @include media-breakpoint-down(lg) {
+    .BookingTable{
+      width:95%;
+      font-size: smaller !important;
+    }
+    
+  }
+  @include media-breakpoint-down(xxs) {
+    
+  }
+  .reservationRow:hover{
+    background-color: #EFEFEF;
+  }
+  
+  .NoReservations{
+    font-size: large;
+    font-weight: 700;
+    padding: 0px 20px;
+    background-color: white;
+    border-radius: 15px;
+  
+  }
+  
+  .wholeBody{
+    height:100%;
+    min-height: 100vh !important;
+    
+  }
+  
+  .bookingTitle{
+      font-size: 23px !important;
+      margin-bottom: 30px;
+  }

@@ -1,0 +1,18 @@
+
+
+$grid-breakpoints: (
+  xxs: 230px,
+  xs: 400px,
+  sm: 576px,
+  md: 640px,
+  lg: 800px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+.postImgExpand{
+  max-height : 400px;
+  object-fit: fill;
+  max-width: calc(80vw);
+}
+

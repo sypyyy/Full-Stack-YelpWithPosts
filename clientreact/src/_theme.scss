@@ -1,0 +1,115 @@
+$dark-primary : #073881;
+$dark-success : #1565c0;
+$dark-dropdown-bg : #2d2e2e;
+$dark-card-bg : #031f30;
+:root {
+   --dark-root-bg : #022c56;
+   --light-root-bg : aliceblue;
+   --dark-text-color : rgb(224, 223, 223);
+   --light-navbar-bg : #e3f2fd;
+   --dark-navbar-bg : #0A1929;
+   --dark-card-bg : #031f30;
+   --dark-input-bg : #021522;
+   
+}
+
+
+
+.lightMode {
+   &#root {
+      background-color: var(--light-root-bg);
+   }
+   & .navbar {
+      background-color: var(--light-navbar-bg);
+   }
+}
+
+.darkMode {
+   &#root {
+      background-color: var(--dark-root-bg);
+   }
+   & .navbar {
+      --bs-navbar-color : rgba(233, 230, 230, 0.79);
+      --bs-navbar-hover-color : white;
+      --bs-navbar-brand-color:  var(--dark-text-color);
+      --bs-navbar-brand-hover-color: var(--dark-text-color);
+      background-color: var(--dark-navbar-bg);
+   }
+   & .navbar-toggler-icon {
+      background-image : escape-svg($navbar-dark-toggler-icon-bg);
+   }
+   & .nav-link.active {
+      color : var(--dark-text-color);
+   }
+   .form-check-input:checked {
+      background-color: $dark-primary !important;
+   }
+   & .card {
+      color:var(--dark-text-color);
+      --bs-card-bg: var(--dark-card-bg);
+      & .maplibregl-popup-content {
+         color : black;
+      }
+   }
+
+   & .form-control {
+      background-color: var(--dark-input-bg);
+      color : var(--dark-text-color);
+      border: 1px solid rgba(128, 128, 128, 0.311);
+      &:focus {
+         box-shadow: 0 0 $input-btn-focus-blur $input-btn-focus-width var(--dark-root-bg) 
+      }
+   }
+
+   & .autoCompleteOption:hover{
+      background-color: lighten($dark-dropdown-bg, 50%);
+   }
+   & .autoComplete {
+      color : var(--dark-text-color);
+      background-color: $dark-dropdown-bg;
+   }
+   &{
+       td.reviewRow {
+         color : var(--dark-text-color);
+     }
+       .table {
+         $prefix : bs-;
+         --#{$prefix}table-color: var(--dark-text-color);
+         --#{$prefix}table-bg: var(--dark-card-bg);
+         --#{$prefix}table-striped-color: var(--dark-text-color);
+         --#{$prefix}table-striped-bg: #{lighten($dark-card-bg, 2%)};
+         --#{$prefix}table-hover-bg: #{lighten($dark-card-bg, 3%)};
+         --#{$prefix}table-hover-color: var(--dark-text-color);
+         
+         
+      }
+      
+   }
+   & .backButton {
+      background-color: #{$dark-success};
+      &:hover {
+         background-color: #{$dark-primary};
+      }
+   }
+   & .MuiTabs-flexContainer,.TabLine,.MuiButtonBase-root {
+      background-color: $dark-primary;
+      .MuiButtonBase-root{
+         color : var(--dark-text-color);
+      }
+      span.MuiTabs-indicator {
+         background-color : var(--dark-text-color) !important;
+      }
+   }
+   & a.blue {
+      color: $dark-primary !important;
+   }
+
+   & .btn.btn-primary {
+      background-color: #1565c0;
+   }
+   & .btn.btn-danger {
+      background-color: rgb(167, 38, 38);
+   }
+}
+
+

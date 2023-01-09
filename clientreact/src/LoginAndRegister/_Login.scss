@@ -1,0 +1,49 @@
+
+
+$grid-breakpoints: (
+  xxs: 230px,
+  xs: 400px,
+  sm: 576px,
+  md: 640px,
+  lg: 800px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+
+.LoginAndRegister{
+  width: 800px;
+  border: 0px solid white !important;
+  overflow: hidden;
+  border-radius: 10px!important;
+  font-family: Noto Sans Ethiopic, sans-serif;
+}
+
+@include media-breakpoint-down(lg) {
+  .LoginAndRegister{
+    width: 95%;
+    border:0px solid white !important;
+    overflow: hidden;
+    border-radius: 10px!important;
+
+  }
+}
+
+@include media-breakpoint-down(xxs) {
+  .LoginAndRegister{
+  width: 230px;
+  border: 0px solid white !important;
+  overflow: hidden;
+  border-radius: 10px!important;
+}
+}
+
+.LoginErr{
+  color: red;
+  
+}
+
+
+
+
+

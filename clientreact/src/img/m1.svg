@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(255,255,255,0)"/>
+<g transform="matrix(56.8182 0 0 56.8182 500.0001 500.0001)" id="27380">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(200,44,80); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-8, -8)" d="M 8 16 s 6 -5.686 6 -10 A 6 6 0 0 0 2 6 c 0 4.314 6 10 6 10 z m 0 -7 a 3 3 0 1 1 0 -6 a 3 3 0 0 1 0 6 z" stroke-linecap="round"/>
+</g>
+<g transform="matrix(6.2017 0 0 3.8818 501.0061 397.5949)" id="294785">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(237,243,247); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-78.4998, -78.5)" d="M 78.5 0 C 52.9419 0 32.1166 35.2271 32.1166 78.5 C 32.1166 121.773 52.9419 157 78.5 157 C 104.058 157 124.883 121.773 124.883 78.5 C 124.883 35.2271 104.058 0 78.5 0 Z" stroke-linecap="round"/>
+</g>
+<g transform="matrix(1 0 0 1 500 391.02)" style="" id="172689">
+		
+<path xml:space="preserve" font-family="Lato" font-size="408" font-style="normal" font-weight="bold" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" d="M-63.44 128.17L-63.44 90.43L-3.67 90.43L-3.67-81.54Q-3.67-91.54-3.06-102.55L-3.06-102.55L-45.49-67.06Q-48.14-64.81-50.90-64.00Q-53.65-63.18-56.30-63.18L-56.30-63.18Q-60.38-63.18-63.75-64.92Q-67.12-66.65-68.75-68.89L-68.75-68.89L-84.66-90.72L5.30-167.22L46.72-167.22L46.72 90.43L99.76 90.43L99.76 128.17L-63.44 128.17Z"/></g>
+</svg>

@@ -1,0 +1,33 @@
+
+$grid-breakpoints: (
+  xxs: 230px,
+  xs: 400px,
+  sm: 576px,
+  md: 680px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+
+.MapSecCard {
+    word-wrap: break-word;
+    width: 97%;
+    height : 350px !important;
+    font-family:sans-serif;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+
+
+.mapTitle {
+  overflow-y: scroll;
+  font-weight: 900;
+  word-spacing: 2px;
+  font-family: sans-serif;
+}
+
+
+
+

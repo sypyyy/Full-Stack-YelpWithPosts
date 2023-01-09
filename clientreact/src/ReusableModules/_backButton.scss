@@ -1,0 +1,37 @@
+$grid-breakpoints: (
+  xxs: 230px,
+  xs: 400px,
+  sm: 576px,
+  md: 640px,
+  lg: 800px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+.backButton {
+   display: inline-block;
+   padding: 15px;
+   border-radius: 50%;
+   background-color: #f1f1f1;
+   
+   
+}
+
+.backButton>svg {
+   margin-top: auto;
+   margin-bottom: auto;
+   margin: auto;
+   display: block;
+  
+}
+
+.backButton:hover {
+   cursor: pointer;
+   background-color: #ddd;
+}
+
+@include media-breakpoint-down(md) {
+   .backButton {
+      padding: 8px;
+   }
+ }
