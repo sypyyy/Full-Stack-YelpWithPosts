@@ -68,7 +68,7 @@ app.get('/SearchResults', (req, res) => {
     let category = req.query.category;
     if(req.query.directSearch == "false") {
       
-        let GeoUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${req.query.location}&key=AIzaSyAakOkX978ZyZRyGFox_SLcqI35gtbaXZY`;
+        let GeoUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${req.query.location}&key=myGcloudAPIkey`;
         axios.get(GeoUrl)
           .then(function (response) {
             
